@@ -1,0 +1,11 @@
+pipelines:
+  pull-requests:
+    '**':
+      - step:
+          name: "Lint"
+          image: node:12.7.0-alpine
+          caches:
+            - node
+          script:
+            - npm ci
+            - npm run lint

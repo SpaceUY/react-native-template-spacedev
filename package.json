@@ -1,0 +1,28 @@
+{
+  "name": "react-native-template-spacedev",
+  "version": "0.0.1",
+  "description": "Spacers assemble",
+  "scripts": {
+    "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
+  },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emin93/react-native-template-typescript.git"
+  },
+  "keywords": [
+    "react-native",
+    "jest",
+    "template",
+    "boilerplate"
+  ],
+  "author": "SpaceDev <anicoli@spacedev.uy>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpaceUY/react-native-template-spacedev/issues"
+  },
+  "homepage": "https://github.com/SpaceUY/react-native-template-spacedev#readme"
+}
