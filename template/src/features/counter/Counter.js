@@ -11,7 +11,7 @@ import {
 import { useSelector, useDispatch } from 'react-redux';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 
-import logo from '_assets/logo.png';
+import logo from '_assets/spacedev.png';
 import localizedStrings from '_localization';
 import useStyles, { createStyleFactory } from '_hooks/useStyles';
 import {

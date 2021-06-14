@@ -5,7 +5,7 @@ platform :ios, '10.0'
 
 IS_CI = ENV['APPCENTER_BUILD_ID']
 
-target 'spacedev' do
+target 'ProjectName' do
   config = use_native_modules!
 
   use_react_native!(
@@ -14,7 +14,7 @@ target 'spacedev' do
     :hermes_enabled => false
   )
 
-  target 'spacedevTests' do
+  target 'ProjectNameTests' do
     inherit! :complete
     # Pods for testing
   end

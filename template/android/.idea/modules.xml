@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spacedev.iml" filepath="$PROJECT_DIR$/.idea/modules/spacedev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/spacedev.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/spacedev.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/408996179/spacedev.appcenter.iml" filepath="$PROJECT_DIR$/.idea/modules/408996179/spacedev.appcenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1789744500/spacedev.appcenter-analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/-1789744500/spacedev.appcenter-analytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-444210149/spacedev.appcenter-crashes.iml" filepath="$PROJECT_DIR$/.idea/modules/-444210149/spacedev.appcenter-crashes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1608731078/spacedev.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1608731078/spacedev.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1914418917/spacedev.react-native-background-upload.iml" filepath="$PROJECT_DIR$/.idea/modules/-1914418917/spacedev.react-native-background-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-704517026/spacedev.react-native-bootsplash.iml" filepath="$PROJECT_DIR$/.idea/modules/-704517026/spacedev.react-native-bootsplash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2122736522/spacedev.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-2122736522/spacedev.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1632788191/spacedev.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1632788191/spacedev.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/469003668/spacedev.react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/469003668/spacedev.react-native-image-crop-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-266201634/spacedev.react-native-localization.iml" filepath="$PROJECT_DIR$/.idea/modules/-266201634/spacedev.react-native-localization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-194180005/spacedev.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-194180005/spacedev.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-795019958/spacedev.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-795019958/spacedev.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2105706978/spacedev.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/2105706978/spacedev.react-native-screens.iml" />
+    </modules>
+  </component>
+</project>

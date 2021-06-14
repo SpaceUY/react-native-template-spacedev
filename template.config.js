@@ -1,4 +1,4 @@
 module.exports = {
-  placeholderName: 'spacedev',
+  placeholderName: 'ProjectName',
   templateDir: './template',
 }

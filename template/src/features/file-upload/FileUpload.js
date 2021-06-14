@@ -3,7 +3,7 @@ import { View, StyleSheet, Image, Alert } from 'react-native';
 import { Formik } from 'formik';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 
-import logo from '_assets/logo.png';
+import logo from '_assets/spacedev.png';
 import useStyles, { createStyleFactory } from '_hooks/useStyles';
 import formSchema from './formSchema';
 import initialValues from './initialValues';
