@@ -9,6 +9,7 @@ module.exports = {
   rules: {
     camelcase: 'error',
     'import/named': 0,
+    'import/order': 'error',
     'import/no-named-as-default-member': 0,
     'react-native/no-raw-text': 'error',
     'react-native/no-single-element-style-arrays': 'error',
