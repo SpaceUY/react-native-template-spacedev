@@ -5,7 +5,7 @@
 Seeing this in the repo? Want to use this? Run this command!
 
 ```bash
-npx react-native init <app-name> --template react-native-template-spacedev
+npx react-native init <app-name> --template @space-uy/react-native-template-spacedev
 ```
 
 After initializing a new project with the template there are just a few configuration files you need to update.
