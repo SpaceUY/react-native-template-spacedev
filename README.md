@@ -12,7 +12,7 @@ After initializing a new project with the template there are just a few configur
 
 ### AppCenter SDK for crash reports
 
-Do a full project find-and-replace for the text `appcenter-app-secret` and replace it for your app secret on app center.
+Do a full project find-and-replace for the text `appcenter-app-secret` and replace it for your app secret on app center. After you do this there is a bunch of commented code in `src/app/navigation/index.js` you may want to uncomment.
 
 ## What this includes
 
@@ -95,6 +95,12 @@ Since we recommend you use formik but we can't use hooks inside the formik conte
 Other than that, all you need to do is to have you api client properly setup and the `POST /storage` endpoint configured like it is [in our other knowledge base article](https://kb.spacedev.uy/books/file-upload-s3/page/nestjs-generic-storage-module).
 
 For a full example, there is a feature called `file-upload` for you to look at in this template!
+
+## Credit where credit's due
+
+This template is based off of [`react-native-new-template`](https://github.com/Esemesek/react-native-new-template) and the official [`react-native-template-typescript`](https://github.com/react-native-community/react-native-template-typescript).
+
+If you want to make your own template those are your example to follow.
 
 ## :computer: Contributing
 
