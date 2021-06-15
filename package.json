@@ -1,17 +1,14 @@
 {
-  "name": "react-native-template-spacedev",
-  "version": "0.0.1",
-  "description": "Spacers assemble",
-  "scripts": {
-    "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
-  },
+  "name": "@space-uy/react-native-template-spacedev",
+  "version": "1.0.0",
+  "description": "SpaceDev's React Native Template 🚀",
   "files": [
     "template",
     "template.config.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emin93/react-native-template-typescript.git"
+    "url": "git+https://github.com/SpaceUY/react-native-template-spacedev.git"
   },
   "keywords": [
     "react-native",
