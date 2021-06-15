@@ -1,9 +1,10 @@
 {
   "name": "@space-uy/react-native-template-spacedev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SpaceDev's React Native Template 🚀",
   "files": [
     "template",
+    "print-instructions.js",
     "template.config.js"
   ],
   "repository": {
