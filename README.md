@@ -45,7 +45,7 @@ If you have reusable components you need put them in the `components` folder.
 
 If you have a new `feature`, be it a `redux` slice for something alone or maybe it has a screen that you'll later navigate to, put it in the `features` folder. See how the `counter` feature is mapped to a folder called the same way with the component inside it and its redux slice and api helpers?
 
-When you have strings you need to show in your UI they go in `localization/en.js` because if you later want to translate the app you'll be reade to do that without any major hassle. An example of how to access those strings can be found in the `counter/Counter.js` component.
+When you have strings you need to show in your UI they go in `localization/en.js` because if you later want to translate the app you'll be ready to do that without any major hassle. An example of how to access those strings can be found in the `counter/Counter.js` component.
 
 When you begin, update your theme to match your app. To access that theme read the next section about `useStyles`.
 
