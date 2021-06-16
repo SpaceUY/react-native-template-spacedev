@@ -4,7 +4,16 @@ import {
   configureStore,
   getDefaultMiddleware,
 } from '@reduxjs/toolkit';
-import { persistReducer, persistStore } from 'redux-persist';
+import {
+  persistReducer,
+  persistStore,
+  FLUSH,
+  REHYDRATE,
+  PAUSE,
+  PERSIST,
+  PURGE,
+  REGISTER,
+} from 'redux-persist';
 
 import counterReducer from '_features/counter/counterSlice';
 import errorReducer from '_features/error/errorSlice';
@@ -26,8 +35,9 @@ const rootReducer = combineReducers({
 export const store = configureStore({
   reducer: persistReducer(persistConfig, rootReducer),
   middleware: getDefaultMiddleware({
-    serializableCheck: false,
-    immutableCheck: false,
+    serializableCheck: {
+      ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+    },
   }),
 });
 
