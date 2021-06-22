@@ -72,6 +72,18 @@ Folder by folder this is what we put in each top level directory:
 - `navigation` - put all your navigators here.
 - `theme` - colors, dimensions, nail polish...
 
+### Branching policies
+
+These are the branches we use and ask you to adhere to:
+
+- `dev`: Active development branch, when creating a `feature` branch start here
+- `staging`: This branch is the one you update once or twice per sprint and your customer will test the code present within it
+- `master`: Latest stable code - accessible to end users (production)
+
+- `feat/<feature>#<card_no>`: A feature that's wip. Make a PR with it to dev when ready. Always use snake case for the feature description - **delete branch after merged!**
+- `fix/<desc>#<card_no>`: Bug fix that's not urgent, it will be merged to dev - **delete branch after merged!**
+- `hotfix/<desc>#<card_no>`: Urgent bug fix, merged directly to master (production) - **delete branch after merged!**
+
 ### Commit message convention
 
 We follow the [conventional commits specification](https://www.conventionalcommits.org/en) for our commit messages:
