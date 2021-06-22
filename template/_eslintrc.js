@@ -43,6 +43,7 @@ module.exports = {
           ['_navigation', './src/navigation'],
           ['_theme', './src/theme'],
         ],
+        extensions: ['.android.js', '.ios.js', '.js', '.jsx', '.json'],
       },
     },
   },

@@ -11,9 +11,6 @@ import {
 import { useSelector, useDispatch } from 'react-redux';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 
-import logo from '_assets/spacedev.png';
-import localizedStrings from '_localization';
-import useStyles, { createStyleFactory } from '_hooks/useStyles';
 import {
   decrement,
   increment,
@@ -22,6 +19,9 @@ import {
   incrementIfOdd,
   selectCount,
 } from './counterSlice';
+import logo from '_assets/spacedev.png';
+import localizedStrings from '_localization';
+import useStyles, { createStyleFactory } from '_hooks/useStyles';
 
 const Counter = () => {
   const navigation = useNavigation();
