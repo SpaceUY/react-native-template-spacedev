@@ -1,5 +1,7 @@
 # SpaceDev React Native Template
 
+[![Node.js Package](https://github.com/SpaceUY/react-native-template-spacedev/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/SpaceUY/react-native-template-spacedev/actions/workflows/npm-publish.yml)
+
 ## Getting started
 
 Seeing this in the repo? Want to use this? Run this command!
