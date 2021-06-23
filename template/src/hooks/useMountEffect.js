@@ -2,11 +2,11 @@
 import { useEffect } from 'react';
 
 /**
- * Run some login when component is mounted
+ * Run some logic when component is mounted
  * @param {() => (() => void) | void} effect
  */
-const useOnMount = (effect) => {
+const useMountEffect = (effect) => {
   useEffect(effect, []);
 };
 
-export default useOnMount;
+export default useMountEffect;
