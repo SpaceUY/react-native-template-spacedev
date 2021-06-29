@@ -35,6 +35,7 @@ Here are the libraries and extras we included:
 * `useMountEffect` because `useEffect` without dependencies is not descriptive enough. Remember that if you are working on a screen maybe the best you can do is resorting to [`useFocusEffect`](https://reactnavigation.org/docs/function-after-focusing-screen#triggering-an-action-with-the-usefocuseffect-hook) and [`useIsFocused`](https://reactnavigation.org/docs/function-after-focusing-screen#re-rendering-screen-with-the-useisfocused-hook).
 * [`useStyles`](https://kb.spacedev.uy/books/react-native/page/styles-handling-in-steroids) hook so you have access to your theme and safe area insets, no need to use `SafeAreaView` (please don't use it)
 * i18n with [`react-native-localization`](https://www.npmjs.com/package/react-native-localization)
+* [`react-native-svg`](https://www.npmjs.com/package/react-native-svg#use-with-svg-files) configured so you can just import svg files and use them as components
 * `appcenter` for crash reports
 * `commitlint` and `eslint` run automatically before each commit through `husky`
 * `bitbucket-pipelines` to run linting
@@ -81,6 +82,21 @@ The shape of `safeAreaInsets` is:
 | `left`        | if your app supports landscape orientation use this to avoid the notch      |
 | `bottom`      | useful to avoid the bottom bar on iOS                      |
 | `right`       | if your app supports landscape orientation use this to avoid the bottom bar |
+
+### Making API requests
+
+Follow these steps:
+
+1. Update the `API_URL` variable in the `.env` file
+2. Use the `makeApiCall` higher order function in your api files like the following snippet
+
+```js
+import makeApiCall from '_app/makeApiCall';
+
+// the following does a post request to your server to the
+// baseUrl + 'something' with the data variable as its body
+const fetchSomethingFromTheApi = makeApiCall((client, data) => client.post('something', data));
+```
 
 ### How do I upload files?
 
