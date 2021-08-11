@@ -5,10 +5,10 @@ import BootSplash from 'react-native-bootsplash';
 
 import { persistor, store } from './src/app/store';
 import RootNavigator from './src/navigation';
-import useOnMount from '_hooks/useOnMount';
+import useMountEffect from '_hooks/useMountEffect';
 
 const App = () => {
-  useOnMount(() => {
+  useMountEffect(() => {
     BootSplash.hide();
   });
 
