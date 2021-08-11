@@ -3,8 +3,6 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-IS_CI = ENV['APPCENTER_BUILD_ID']
-
 target 'ProjectName' do
   config = use_native_modules!
 
@@ -17,15 +15,6 @@ target 'ProjectName' do
   target 'ProjectNameTests' do
     inherit! :complete
     # Pods for testing
-  end
-
-  # Enables Flipper.
-  #
-  # Note that if you have use_frameworks! enabled, Flipper will not work and
-  # you should disable the next line.
-
-  if not IS_CI
-    use_flipper!()
   end
 
   post_install do |installer|
